@@ -1,0 +1,24 @@
+.home-page {
+  padding: 150px 95px 0;
+
+  &__heading {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 22px;
+  }
+
+  &__message {
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  &__heading,
+  &__message {
+    text-align: center;
+  }
+
+  &__link {
+    color: $colorLochmara;
+  }
+}

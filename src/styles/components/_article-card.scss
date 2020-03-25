@@ -1,0 +1,23 @@
+.article-card {
+  box-sizing: border-box;
+  width: 240px;
+  height: 240px;
+  margin: 0 25px 25px 0;
+  padding: 18px 17px;
+  border-radius: 5px;
+  background-color: $colorGallery;
+  box-shadow: 0 4px 4px rgba($colorMineShaft, 0.25);
+
+  &__name {
+    text-align: center;
+    color: $colorMineShaft;
+  }
+
+  &__thumbnail {
+    text-align: center;
+  }
+
+  &__thumbnail-img {
+    max-width: 100%;
+  }
+}

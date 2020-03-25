@@ -1,0 +1,43 @@
+.article {
+  color: $colorMineShaft;
+
+  &__name {
+    margin-bottom: 5px;
+    font-weight: 300;
+  }
+
+  &__heading {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  &__heading,
+  &__name {
+    font-weight: 300;
+  }
+
+  &__date {
+    color: lighten($colorMineShaft, 15%);
+  }
+
+  &__author,
+  &__date {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  &__image {
+    margin-top: 23px;
+
+    .image-with-meta__img {
+      width: 480px;
+      border-radius: 5px;
+      box-shadow: 0 4px 4px rgba($colorMineShaft, 0.25);
+    }
+  }
+
+  &__body {
+    margin-top: 25px;
+  }
+}

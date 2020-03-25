@@ -1,0 +1,17 @@
+.image-with-meta {
+  &__img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  &__source {
+    font-style: italic;
+    color: lighten($colorMineShaft, 15%);
+  }
+
+  &__caption,
+  &__source {
+    font-size: 14px;
+    margin: 0;
+  }
+}
